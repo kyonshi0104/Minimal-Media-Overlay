@@ -1,0 +1,14 @@
+{
+  "AppVersion": "1.0.0",
+  "Title": "Minimal Media Overlay",
+  "Thumbnail": "thumbnail.png",
+  "Preview": "preview.gif",
+  "Desc": "A minimal overlay wallpaper featuring a clock, CPU/RAM usage, and media track info with an audio visualizer",
+  "Author": "kyonshi",
+  "License": "MIT",
+  "Contact": "https://kyonshi.com/contact",
+  "Type": 1,
+  "IsAbsolutePath": false,
+  "Arguments": "--system-nowplaying --audio --system-information",
+  "FileName": "index.html"
+}

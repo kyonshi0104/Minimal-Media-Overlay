@@ -1,0 +1,62 @@
+{
+  "Languages": {
+    "ja": {
+      "showSysInfo": {
+        "text": "CPU/RAMの使用率を表示する"
+      },
+      "backgroundMedia": {
+        "text": "背景メディア"
+      },
+      "textColor": {
+        "text": "文字色"
+      },
+      "waveformColor": {
+        "text": "波形の色"
+      },
+      "waveformSensitivity": {
+        "text": "波形の高さ感度"
+      },
+      "backgroundVolume": {
+        "text": "背景動画の音量"
+      },
+      "backgroundBlur": {
+        "text": "背景のぼかし"
+      },
+      "clockPosition": {
+        "text": "時計の配置"
+      },
+      "musicPosition": {
+        "text": "音楽情報・波形の配置"
+      }
+    },
+    "zh-CN": {
+      "showSysInfo": {
+        "text": "显示CPU/RAM使用率"
+      },
+      "backgroundMedia": {
+        "text": "背景媒体"
+      },
+      "textColor": {
+        "text": "文字颜色"
+      },
+      "waveformColor": {
+        "text": "波形颜色"
+      },
+      "waveformSensitivity": {
+        "text": "波形高度灵敏度"
+      },
+      "backgroundVolume": {
+        "text": "背景视频音量"
+      },
+      "backgroundBlur": {
+        "text": "背景模糊"
+      },
+      "clockPosition": {
+        "text": "时钟位置"
+      },
+      "musicPosition": {
+        "text": "音乐信息和波形位置"
+      }
+    }
+  }
+}

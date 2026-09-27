@@ -1,0 +1,60 @@
+{
+  "showSysInfo": {
+    "text": "Show CPU/RAM Usage",
+    "type": "checkbox",
+    "value": true
+  },
+  "backgroundMedia": {
+    "text": "Background Media",
+    "type": "folderDropdown",
+    "value": "default.png",
+    "filter": "*.mp4|*.webm|*.m4v|*.mov|*.jpg|*.jpeg|*.png|*.gif|*.webp",
+    "folder": "media"
+  },
+  "textColor": {
+    "text": "Text Color",
+    "type": "color",
+    "value": "#F0F8FF"
+  },
+  "waveformColor": {
+    "text": "Waveform Color",
+    "type": "color",
+    "value": "#FFFFFF"
+  },
+  "waveformSensitivity": {
+    "text": "Waveform Height Sensitivity",
+    "type": "slider",
+    "min": 25,
+    "max": 250,
+    "step": 5,
+    "value": 100
+  },
+  "backgroundVolume": {
+    "text": "Background Video Volume",
+    "type": "slider",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 50
+  },
+  "backgroundBlur": {
+    "text": "Background Blur",
+    "type": "slider",
+    "min": 0,
+    "max": 20,
+    "step": 1,
+    "value": 0
+  },
+  "clockPosition": {
+    "text": "Clock Position",
+    "type": "dropdown",
+    "value": 0,
+    "items": ["Top Right", "Top Left", "Center", "Hidden"]
+  },
+  "musicPosition": {
+    "text": "Music Display Position",
+    "type": "dropdown",
+    "value": 0,
+    "items": ["Bottom Left", "Bottom Right", "Bottom Center", "Hidden"]
+  }
+}

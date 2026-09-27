@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/wallpaper.css">
+        <script src="./js/wallpaper.js" defer></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="clock clock--top-right">
+            <div class="clock__time">
+                <h1 id="clock-hours-minutes">00:00</h1>
+                <p id="clock-seconds" class="clock__seconds">00</p>
+            </div>
+            <div class="clock__date-row">
+                <p id="clock-date">0000.00.00</p>
+                <p>/</p>
+                <p id="clock-weekday">Monday</p>
+            </div>
+            <div id="system-info-container" class="system-info">
+                <span>CPU: <span id="cpu-usage">0</span>% </span>
+                <span> / </span>
+                <span>RAM: <span id="ram-usage">0</span>%</span>
+            </div>
+        </div>
+        <div class="music-display music-display--bottom-left">
+            <div class="music-display__artwork">
+                <img class="music-display__thumbnail music-display__thumbnail--active" src="./res/default-thumbnail.jpg" alt="" aria-hidden="true" />
+                <img class="music-display__thumbnail" alt="" aria-hidden="true" />
+            </div>
+            <div class="music-display__metadata">
+                <h1 id="music-title" class="music-display__title"></h1>
+                <p id="music-artist" class="music-display__artist"></p>
+                <canvas id="audio-visualizer" class="music-display__visualizer" width="720" height="200"></canvas>
+            </div>
+        </div>
+        <video id="background-video" class="background" autoplay loop hidden></video>
+        <img id="background-image" class="background" alt="">
+    </body>
+</html>
