@@ -1,0 +1,30 @@
+name: Create draft release
+
+on:
+  push:
+    tags:
+      - "*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Package Lively wallpaper
+        run: |
+          mkdir -p dist
+          zip -r dist/Minimal-Media-Overlay.zip \
+            index.html css js media res \
+            LivelyInfo.json LivelyProperties.json LivelyProperties.loc.json \
+            preview.gif thumbnail.png LICENSE
+
+      - name: Create draft release
+        uses: softprops/action-gh-release@v2
+        with:
+          draft: true
+          files: dist/Minimal-Media-Overlay.zip
